@@ -1,3 +1,7 @@
+# Script to explore finding if a point is in a polygon.
+
+# Video Walkthrough Link: https://www.youtube.com/watch?v=TA8XQgiao4M
+
 import pygame
 from random import randint
 
@@ -68,7 +72,7 @@ def main():
 		random_points.append((x,y))
 
 		pygame.display.update()
-		clock.tick(60)
+		clock.tick(30)
 
 
 if __name__ == '__main__':
